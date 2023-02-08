@@ -1,0 +1,102 @@
+h1 {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.header-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  margin: 32px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 10px 24px rgb(0 0 0 / 20%);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+img {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  position: relative;
+  transition: bottom 0.2s ease-in-out;
+  background-color: #3943d1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+li i {
+  font-size: 48px;
+  color: #3943d1;
+  height: 42px;
+}
+
+i:hover {
+  color: rgb(109, 114, 145);
+  transition: 200ms;
+  bottom: 60px;
+}
+
+.box-shadow {
+  box-shadow: 4px 10px 12px rgb(0 0 0 / 40%);
+}
+
+p {
+  font-family: Verdana;
+  text-align: center;
+  padding: 16px;
+  margin: 24px;
+}
